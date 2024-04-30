@@ -40,8 +40,12 @@
             >
                 <span>{{ option.answer }}</span>
                 <div class="icon tick" *ngIf="option.isCorrect && option.isSelected">
-                    <i class="fas fa-check" aria-hidden="true"></i>
+                    <box-icon name='check-circle' type="solid" aria-hidden="true"></box-icon>
                 </div>
+                <div class="icon cross" *ngIf="!option.isCorrect && option.isSelected">
+                    <box-icon name='check-circle' aria-hidden="true"></box-icon>
+                </div>
+
             </div>
         </div>
     </section>

@@ -1,7 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 /* You can add global styles to this file, and also import other style files */
-/* importing google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -250,7 +248,7 @@ section .option_list .option .icon{
 .option_list .option .icon.tick{
     color: #23903c;
     border-color: #23903c;
-    background: #d4edda;
+    background: #edecd4;
 }
 
 .option_list .option .icon.cross{
