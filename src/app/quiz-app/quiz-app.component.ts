@@ -34,7 +34,7 @@ export class QuizAppComponent implements OnInit, OnDestroy {
     this.http.get('assets/question.json').subscribe((res: any) => {
       const allQuestions: any[] = res;
 
-      this.questionsList = this.selectRandomQuestions(allQuestions, 10);
+      this.questionsList = this.selectRandomQuestions(allQuestions, 30);
 
       this.shuffleQuestions();
     });

@@ -50,7 +50,7 @@
             <span><p>{{ currentQuestionNo + 1 }}</p> of <p>{{ questionsList.length }}</p></span>
         </div>
         <button *ngIf="currentQuestionNo + 1 == questionsList.length" class="next_btn show" (click)="finish()">Finish</button>
-        <button *ngIf="currentQuestionNo + 1 !== questionsList.length" class="next_btn show" (click)="nextQuestion()">Next Ques</button>
+        <button *ngIf="currentQuestionNo + 1 !== questionsList.length" class="next_btn show" (click)="nextQuestion()">Next</button>
     </footer>
 </div>
 

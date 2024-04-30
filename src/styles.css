@@ -11,6 +11,9 @@
 
 body{
     background: #007bff;
+    height: 80dvh;
+    font-size: calc(60% + 0.8vmin);
+
 }
 
 ::selection{
@@ -385,4 +388,26 @@ footer button.show{
 .buttons button.quit:hover{
     color: #fff;
     background: #007bff;
+}
+
+/* Media queries pour les petits écrans */
+@media (max-width: 768px) {
+    .start_btn,
+    .info_box,
+    .quiz_box,
+    .result_box {
+        font-weight: 350;
+        font-size: 18px;
+    }
+
+    .info_box,
+    .quiz_box,
+    .result_box {
+    }
+
+    section {
+    }
+
+    footer {
+    }
 }
