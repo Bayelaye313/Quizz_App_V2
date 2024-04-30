@@ -177,6 +177,7 @@ body{
     left: 0px;
     height: 3px;
     background: #23903c;
+    width: calc(100% + 0.8vmin);
 }
 
 section{
@@ -235,26 +236,26 @@ section .option_list .option.disabled{
 }
 
 section .option_list .option .icon{
-    height: 26px;
-    width: 26px;
-    border: 2px solid transparent;
+    height: 20px;
+    width: 20px;
+    border: 1px solid transparent;
     border-radius: 50%;
     text-align: center;
     font-size: 13px;
     pointer-events: none;
     transition: all 0.3s ease;
-    line-height: 24px;
+    line-height: 20px;
 }
 .option_list .option .icon.tick{
-    color: #23903c;
-    border-color: #23903c;
-    background: #edecd4;
+    color: #c8dfce;
+    border-color: #42e267;
+    background: #23903c;
 }
 
 .option_list .option .icon.cross{
-    color: #a42834;
-    background: #f8d7da;
-    border-color: #a42834;
+    color: #f8d7da;
+    background: #a42834 ;
+    border-color: #dd4957;
 }
 
 footer{
@@ -324,7 +325,7 @@ footer button.show{
     transition: all 0.3s ease;
 }
 
-.result_box .icon{
+.result_box .icon.crown{
     font-size: 100px;
     color: #23903c;
     margin-bottom: 10px;
